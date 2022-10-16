@@ -1,0 +1,779 @@
+[
+    {
+        "DisplayName": "Server Port",
+        "Category": "server",
+        "Description": "port of the server",
+        "Keywords": "port",
+        "FieldName": "port",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "port",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "25564",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Server Name",
+        "Category": "server",
+        "Description": "name of the server",
+        "Keywords": "server name",
+        "FieldName": "name",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "name",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "My StormWork server",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "seed",
+        "Category": "world",
+        "Description": "seed of the world",
+        "Keywords": "seed",
+        "FieldName": "seed",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "seed",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "9787",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "save name",
+        "Category": "server",
+        "Description": "name of the save folder",
+        "Keywords": "save",
+        "FieldName": "save_name",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "save_name",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "autosave_server",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Max Players",
+        "Category": "server",
+        "Description": "maximum number of players that can be on the server",
+        "Keywords": "player",
+        "FieldName": "max_players",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "max_players",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "32",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "server password",
+        "Category": "server",
+        "Description": "password of the server",
+        "Keywords": "password",
+        "FieldName": "password",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "password",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "day night length",
+        "Category": "weather/time",
+        "Description": "length of the day and night cycle",
+        "Keywords": "day night length",
+        "FieldName": "day_night_length",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "day_night_length",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "60",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "sunrise",
+        "Category": "weather/time",
+        "Description": "length of sunrise",
+        "Keywords": "sunrise",
+        "FieldName": "sunrise",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "sunrise",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "0.25",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "sunset",
+        "Category": "weather/time",
+        "Description": "length of the sunset",
+        "Keywords": "sunset length",
+        "FieldName": "sunset",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "sunset",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "0.791",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "infinite ressources",
+        "Category": "cheats",
+        "Description": "infinite ressources",
+        "Keywords": "ressources",
+        "FieldName": "infinite_resources",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "infinite_resources",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "unlock all islands",
+        "Category": "cheats",
+        "Description": "unlock all islands",
+        "Keywords": "unlock islands",
+        "FieldName": "unlock_all_islands",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "unlock_all_islands",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "settings menu",
+        "Category": "menu",
+        "Description": "settings menu",
+        "Keywords": "menu",
+        "FieldName": "settings_menu",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "settings_menu",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "base island",
+        "Category": "world",
+        "Description": "the island where you want to start (xml in data/tiles/))",
+        "Keywords": "island start",
+        "FieldName": "base_island",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "base_island",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "island12",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "settings menu lock",
+        "Category": "menu",
+        "Description": "settings menu lock",
+        "Keywords": "menu lock",
+        "FieldName": "settings_menu_lock",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "settings_menu_lock",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "infinite batteries",
+        "Category": "cheats",
+        "Description": "infinite batteries",
+        "Keywords": "batteries",
+        "FieldName": "infinite_batteries",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "infinite_batteries",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "infinite fuel",
+        "Category": "cheats",
+        "Description": "infinite fuel",
+        "Keywords": "fuel",
+        "FieldName": "infinite_fuel",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "infinite_fuel",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "engine overheating",
+        "Category": "cheats",
+        "Description": "engine overheating",
+        "Keywords": "engine overheating",
+        "FieldName": "engine_overheating",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "engine_overheating",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "ceasefire",
+        "Category": "cheats",
+        "Description": "ceasefire",
+        "Keywords": "ceasefire",
+        "FieldName": "ceasefire",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "ceasefire",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "infinite ammo",
+        "Category": "cheats",
+        "Description": "infinite ammo",
+        "Keywords": "ammo",
+        "FieldName": "infinite_ammo",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "infinite_ammo",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "no clip",
+        "Category": "cheats",
+        "Description": "no clip",
+        "Keywords": "noclip clip",
+        "FieldName": "no_clip",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "no_clip",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "map teleport",
+        "Category": "cheats",
+        "Description": "map teleport",
+        "Keywords": "teleport",
+        "FieldName": "map_teleport",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "map_teleport",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "vehicle spawn",
+        "Category": "world",
+        "Description": "vehicle spawn",
+        "Keywords": "vehicle spawn",
+        "FieldName": "vehicle_spawn",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "vehicle_spawn",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "photo mode",
+        "Category": "player",
+        "Description": "photo mode",
+        "Keywords": "photo mode",
+        "FieldName": "photo_mode",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "photo_mode",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "respawning",
+        "Category": "player",
+        "Description": "respawning",
+        "Keywords": "respawning",
+        "FieldName": "respawning",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "respawning",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "cleanup vehicle",
+        "Category": "world",
+        "Description": "cleanup vehicle",
+        "Keywords": "cleanup vehicle",
+        "FieldName": "cleanup_vehicle",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "cleanup_vehicle",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "clear fow",
+        "Category": "cheats",
+        "Description": "clear fow",
+        "Keywords": "clear fow",
+        "FieldName": "clear_fow",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "clear_fow",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "third person",
+        "Category": "player",
+        "Description": "enable third person",
+        "Keywords": "third person",
+        "FieldName": "third_person",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "third_person",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "third person vehicle",
+        "Category": "player",
+        "Description": "enable third person vehicle",
+        "Keywords": "third person vehicle",
+        "FieldName": "third_person_vehicle",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "third_person_vehicle",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "vehicle damage",
+        "Category": "world",
+        "Description": "enable vehicle damage",
+        "Keywords": "vehicle damage",
+        "FieldName": "vehicle_damage",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "vehicle_damage",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "player damage",
+        "Category": "world",
+        "Description": "enable player damage",
+        "Keywords": "player damage",
+        "FieldName": "player_damage",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "player_damage",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "npc damage",
+        "Category": "world",
+        "Description": "enable npc damage",
+        "Keywords": "npc damage",
+        "FieldName": "npc_damage",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "npc_damage",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "aggressive animals",
+        "Category": "nature",
+        "Description": "enable aggressive animals",
+        "Keywords": "aggressive animals",
+        "FieldName": "aggressive_animals",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "aggressive_animals",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "sea monsters",
+        "Category": "nature",
+        "Description": "enable sea monsters",
+        "Keywords": "sea monsters",
+        "FieldName": "sea_monsters",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "sea_monsters",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "lightning",
+        "Category": "weather/time",
+        "Description": "lightning",
+        "Keywords": "lightning",
+        "FieldName": "lightning",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "lightning",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "teleport vehicle",
+        "Category": "cheats",
+        "Description": "enable teleport vehicle",
+        "Keywords": "teleport vehicle",
+        "FieldName": "teleport_vehicle",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "teleport_vehicle",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "fast travel",
+        "Category": "cheats",
+        "Description": "enable fast travel",
+        "Keywords": "fast travel",
+        "FieldName": "fast_travel",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "fast_travel",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "starting currency",
+        "Category": "player",
+        "Description": "starting currency",
+        "Keywords": "starting currency",
+        "FieldName": "starting_currency",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "starting_currency",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "20000",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "despawn on leave",
+        "Category": "world",
+        "Description": "enable despawn on leave",
+        "Keywords": "despawn on leave",
+        "FieldName": "despawn_on_leave",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "despawn_on_leave",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "map show players",
+        "Category": "map",
+        "Description": "enable map show players",
+        "Keywords": "map show players",
+        "FieldName": "map_show_players",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "map_show_players",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "map show vehicles",
+        "Category": "map",
+        "Description": "enable map show vehicles",
+        "Keywords": "map show vehicles",
+        "FieldName": "map_show_vehicles",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "map_show_vehicles",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "show 3d waypoints",
+        "Category": "map",
+        "Description": "enable show 3d waypoints",
+        "Keywords": "3d waypoints",
+        "FieldName": "show_3d_waypoints",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "show_3d_waypoints",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "show name plates",
+        "Category": "map",
+        "Description": "enable show name plates",
+        "Keywords": "name plates",
+        "FieldName": "show_name_plates",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "show_name_plates",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "override weather",
+        "Category": "weather/time",
+        "Description": "enable weather override ",
+        "Keywords": "override weather",
+        "FieldName": "override_weather",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "override_weather",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "override time",
+        "Category": "weather/time",
+        "Description": "enable time override",
+        "Keywords": "override time",
+        "FieldName": "override_time",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "override_time",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "override wind",
+        "Category": "weather/time",
+        "Description": "enable wind override",
+        "Keywords": "override wind",
+        "FieldName": "override_wind",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "override_wind",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "physics timestep",
+        "Category": "world",
+        "Description": "physics timestep",
+        "Keywords": "physics timestep",
+        "FieldName": "physics_timestep",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "physics_timestep",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "0",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "wildlife enabled",
+        "Category": "nature",
+        "Description": "enable wildlife",
+        "Keywords": "wildlife",
+        "FieldName": "wildlife_enabled",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "wildlife_enabled",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "true",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "fish spawn rate",
+        "Category": "nature",
+        "Description": "fish spawn rate",
+        "Keywords": "fish spawn rate",
+        "FieldName": "fish_spawn_rate",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "fish_spawn_rate",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "2",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "unlock components",
+        "Category": "cheats",
+        "Description": "unlock all the components",
+        "Keywords": "components",
+        "FieldName": "unlock_components",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "unlock_components",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "dlc weapons",
+        "Category": "dlc",
+        "Description": "enable dlc weapons",
+        "Keywords": "dlc weapons",
+        "FieldName": "dlc_weapons",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "dlc_weapons",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "dlc arid",
+        "Category": "dlc",
+        "Description": "enable dlc arid",
+        "Keywords": "dlc arid",
+        "FieldName": "dlc_arid",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "dlc_arid",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    }
+]
